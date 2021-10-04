@@ -1,0 +1,94 @@
+html {
+  background-image: url("../img/texturetastic_gray.png");
+  background-attachment: fixed;
+}
+
+div {
+  border-radius: 5px;
+}
+
+header {
+  height: 40px;
+  width: 100%;
+  background-image: url("../img/subtle_orange_emboss.png");
+  background-attachment: fixed;
+  position: fixed;
+  z-index: 1;
+}
+
+title {
+  margin-left: 3%;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  background-image: url("../img/subtle_orange_emboss.png");
+  background-attachment: fixed;
+  clear: both;
+  position: relative;
+}
+.inline_div {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inline_div_wrapper {
+  display:  flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.inline_div img {
+  border-radius: 25px;
+  height: 200px;
+  width: auto;
+}
+.left {
+  height: 1000px;
+  width: 80px;
+  background-image: url("../img/subtle_orange_emboss.png");
+  background-attachment: fixed;
+  float: left;
+  position: fixed;
+}
+
+.right {
+  height: 1000px;
+  width: 80px;
+  background-image: url("../img/subtle_orange_emboss.png");
+  background-attachment: fixed;
+  float: right;
+  position: inherit;
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 100px;
+  width: 75%;
+  height: 1000px;
+}
+
+p,
+li {
+  font-family:  serif;
+}
+
+.head {
+  font-size: 20px;
+}
+
+name {
+  font-family:  serif;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+
+
+
